@@ -1,0 +1,79 @@
+@import url(botão.css);
+@import url(card.css);
+
+@font-face {
+    font-family: Hollow;
+    src: url(../Fontes/TrajanProRegular/TrajanProRegular.ttf)
+}
+
+*{
+    color: rgb(228, 238, 248);
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://img.freepik.com/premium-vector/modern-gradient-transitions-from-blue-steel-pastel-blue-gentle-contemporary-look_1211457-3762.jpg?semt=ais_hybrid&w=740);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1,h2,h3,h4,h5,h6,button{
+    font-family: Hollow;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 5px;
+    width: auto;
+    max-width: 100%;
+}
+
+
+p, nav{
+    font-family: Didot, serif;
+    padding: 3px 0px;
+    padding: auto;
+}
+
+header{
+    text-align: center;
+}
+
+
+#phrase{
+    text-align: center;
+    line-height: 25px;
+}
+
+#logo{
+    width: 100px;
+    position: center;
+    padding: 50px;
+}
+
+nav{
+    background-color: #00000082;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+footer{
+    position: bottom;
+    background-color: #00000082;
+    width: 100%;
+    padding: 10px;
+}

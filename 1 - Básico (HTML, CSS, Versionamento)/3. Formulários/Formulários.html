@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="name">Nome:</label>
+            <input input type="text" id="nome" name="nome" placeholder="Ex: Alan Turner" required/>
+        </div>
+      
+        <div>
+            <label for="idade">Idade:</label>
+            <input input type="number" id="idaide" name="idade" placeholder="Ex: 20" required />
+        </div>
+
+        <div>
+            <label for="paises">De qual país você é?</label>
+            <select name="paises" id="paises">
+                <option value="brasil">Brasil</option>
+                <option value="russia">Rússia</option>
+                <option value="alemanha">Alemanha</option>
+                <option value="china">China</option>
+                <option value="cuba">Cuba</option>
+            </select>
+        </div>
+      
+        <div>
+            <label for="msg">Mensagem:</label>
+            <textarea id="msg" placeholder="Escreva sua mensagem" required></textarea>
+        </div>
+      
+        <div>
+            <fieldset>
+                <legend>Termos e Condições</legend>
+                <div>
+                    <input type="checkbox" value="sim" id="termo" required>
+                    <label for="termo">Aceito os termos de condições</label>
+                </div>
+            </fieldset>
+        </div>
+
+      <input type="submit" value="Clique aqui">
+
+    </form>
+
+</body>
+</html>
