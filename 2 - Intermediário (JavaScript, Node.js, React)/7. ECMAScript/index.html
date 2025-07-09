@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Métodos em Arrays - E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="cabeçalho">
+        <h3>Produtos</h3>
+
+        <label for="quantidade">Quantidade</label>
+        <input type="number" name="quantidade" id="quantidade">
+
+        <label for="nome-produto">Nome do produto</label>
+        <input type="text" name="nome-produto" id="nome-produto" placeholder="insira o nome do produto">
+
+        <label for="preco">Preço unitário</label>
+        <input type="number" name="preco" id="preco" min="0">
+    </div>
+
+    <h2>Carrinho de Compras</h2>
+
+    <table id="carrinho"> <!-- é melhor fazer em table por questão de acessibilidade (leitores de texto) -->
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Preço Total</th>
+            </tr>
+        </thead>
+        <tbody id = "carrinho-compras"></tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total</td>
+                <td>R$ 0,00</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <script src="métodoArray.js"></script>
+    
+</body>
+</html>
