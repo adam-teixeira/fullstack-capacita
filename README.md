@@ -1,6 +1,4 @@
-# 🇧🇷 PT-BR
-
-## ℹ️ Soluções Educacionais - Capacita Brasil / C-Jovem
+# ℹ️ Soluções Educacionais - Capacita Brasil / C-Jovem
 É um programa nacional que faz parte do Atlântico Avanti, tem o objetivo de capacitar estudantes do EM e Superior, entrantes no mercado de trabalho, para serem plenamente capazes de atuarem na área de tecnologia nas vertentes de tecnologia e dados.
 
 O curso é composto por:
@@ -13,10 +11,9 @@ O Atlântico é uma das principais ICTs do Brasil, localizado no Nordeste. Somos
 
 O Avanti, prepara profissionais para protagonizar suas próprias trajetórias. Com conhecimento aplicado, método e conexão com o ecossistema do Instituto Atlântico, desenvolvemo competências em tecnologia, inovação e gestão, apoiando desde a entrada no mercado até o posicionamento como liderança e referência em sua área.
 
+---
 
-# 🇬🇧 ENG
-
-## ℹ️ Educational Solutions - Capacita Brasil / C-Jovem
+# ℹ️ Educational Solutions - Capacita Brasil / C-Jovem
 This national program, part of Atlântico Avanti, aims to train high school and college students entering the job market to be fully capable of working in technology, focusing on technology and data.
 
 The course consists of:
