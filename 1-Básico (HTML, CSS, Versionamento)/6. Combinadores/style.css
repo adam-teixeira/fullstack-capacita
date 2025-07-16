@@ -1,0 +1,11 @@
+/*Seletores Descendentes*/
+div p{
+    border: 1px solid black;
+}
+
+/*Seletores Filhos*/
+div > p{
+    border: 1px solid black;
+}
+
+/*Seletores Adjacentes / Irmão Adjacente*/

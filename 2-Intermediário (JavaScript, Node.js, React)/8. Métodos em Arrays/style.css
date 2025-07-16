@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+    color: #f24568;
+}
+
+.container {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 50px;
+    background-color:blanchedalmond;
+    border-radius: 30px;
+    width: 300px;
+    height: auto;
+}
+
+.container input {
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+    border: none;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color:#ff6181;
+    color: white;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #f24568;
+    cursor: pointer;
+}
+
+label {
+    padding: 5px;
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead, tbody, th, td {
+    border: 1px solid #3b2f2d;
+    padding: 10px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th, label {
+    font-size: 14px;
+}
+
+th{
+    background-color: #ff6181;
+    color: white;
+}
+
+td, input {
+    font-size: 14px;
+    background-color: white;
+}
+
+.qtd {
+    text-align: center;
+}
+
+#level{
+    margin: 20px 0px;
+    padding: 5px 10px;
+    border: #f24568;
+    border-radius: 50px;
+    text-align: center;
+}
+
+section {
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 20px;
+}
