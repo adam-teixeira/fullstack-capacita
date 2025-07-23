@@ -61,6 +61,7 @@ function tirarLixo() {
     });
 };
 
+// USANDO PROMISES
 andarCachorro()
   .then((value) => {
     console.log(value);
@@ -76,3 +77,23 @@ andarCachorro()
   })
   .catch((error => console.error(error)
   ));
+
+
+// USANDO ASYNC AWAIT
+async function fazerTarefas(){
+    try{
+        const andarCachorroResultado = await andarCachorro();
+        console.log(andarCachorroResultado);
+    
+        const arrumarCozinhaResultado = await arrumarCozinha();
+        console.log(arrumarCozinhaResultado);
+    
+        const tirarLixoResultado = await tirarLixo();
+        console.log(tirarLixoResultado);
+    }
+    catch(error){
+        console.error(error);
+    }
+};
+
+fazerTarefas();
